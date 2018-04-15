@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Source Sans Pro|Muli|Montserrat');
+
+body {
+	margin:0 !important;
+	padding: 0 !important;
+}
+
+hr {
+  background-color:orange;
+  color:red;
+  border:hidden;
+  border-radius:10px
+}
+
+.intro {
+	background: url(4.png) no-repeat center center fixed;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.paragraph_intro {
+	font-size: 20px;
+	font-family: Muli;
+	letter-spacing: 1px;
+	margin-top: 80px;
+	color: #D9F489;
+}
+
+.paragraph_skills {
+	font-family: Muli;
+	margin-top: 40px;
+	color: #D9F489;
+	font-weight: bold;
+}
+
+.icons_skills {
+	margin-top: 20px;
+	color: #DE3C3C;
+}
+
+.heading {
+	font-size: 90px;
+	margin-top: 120px;
+	font-family: Source Sans Pro;
+	color: white;
+}
+
+.skills {
+	background:url(5.jpg) no-repeat center center fixed;
+	overflow: hidden;
+	background-size: cover;
+}
+
+.learn-more {
+	border:hidden;
+	color:cornflowerblue;
+	background-color: orangered;
+	font-size: 30px;
+	padding: 9px;
+	border-radius: 10px;
+	font-family: Montserrat;
+}
+
+.learn-more:hover {
+	transition: all 550ms;
+	background-color: cornflowerblue;
+	color: orangered;
+    cursor: pointer;
+}
+.learn-more:focus {
+	outline: 0;
+}
+.paragraph_hobbies {
+	font-family: Muli;
+	font-size: 20px;
+	color: #D9F489;
+}
+
+.icons_hobbie {
+	margin-top: 20px;
+	color: cornflowerblue;
+}
+
+.hobbies {
+	background: url(2.jpg) no-repeat center center fixed;
+	overflow: hidden;
+	background-size: cover;
+}
+
+.paragraph_contact {
+    font-family: Muli;
+    color: #D9F489;
+    font-weight: bolder;
+}
+
+.icons_contact {
+    color: red;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.icons_contact:hover {
+	cursor: pointer;
+	transition: all 350ms;
+	color: rebeccapurple;
+}
+
+.contact {
+	background-color: black;
+	overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+
+@media screen and (max-width: 365px){
+	.heading {
+		font-size: 80px;
+
+	}
+}
+
+@media screen and (max-width: 302px){
+	.heading {
+		font-size: 60px;
+
+	}
+}
+
+@media screen and (max-width: 251px){
+	.heading {
+		font-size: 45px;
+
+	}
+
+	.paragraph_contact {
+		font-size: 15px;
+	}
+
+	hr {
+		width: 150px;
+	}
+}
+
+@media screen and (max-width: 231px){
+	.heading {
+		font-size:40px;
+	}
+	.paragraph_contact {
+		font-size: 8px;
+	}
+	.paragraph_skills {
+		font-size: 8px;
+	}
+	.paragraph_hobbies {
+		font-size: 8px;
+	}
+}
