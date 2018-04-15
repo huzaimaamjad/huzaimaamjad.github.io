@@ -13,10 +13,10 @@ hr {
 }
 
 .intro {
-	background: url(4.png) no-repeat center center fixed;
+	background: url(4.jpg) no-repeat center center fixed;
 	background-size: cover;
 	overflow: hidden;
-        background-color:rgba(0,0,0,1);
+    background-color:rgba(0,0,0,1);
 }
 
 .paragraph_intro {
